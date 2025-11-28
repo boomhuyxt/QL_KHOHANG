@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_KHO_HANG", "QL_KHO_HANG.csproj", "{FD3501ED-3D6B-4BD1-B7B5-FC7AD4972F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FORM", "FORM", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		TRANGCHU.cs = TRANGCHU.cs
+		TRANGCHU.Designer.cs = TRANGCHU.Designer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DATA", "DATA", "{838D01BC-CF42-4A4F-9988-77D5F2713A6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BACK", "BACK", "{3A3D54DC-3C9B-4EF8-88C2-7243812AFD04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appdata", "..\Appdata\Appdata.csproj", "{27212E08-808B-462E-896F-55FEC6DCE94D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD3501ED-3D6B-4BD1-B7B5-FC7AD4972F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD3501ED-3D6B-4BD1-B7B5-FC7AD4972F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD3501ED-3D6B-4BD1-B7B5-FC7AD4972F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD3501ED-3D6B-4BD1-B7B5-FC7AD4972F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27212E08-808B-462E-896F-55FEC6DCE94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27212E08-808B-462E-896F-55FEC6DCE94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27212E08-808B-462E-896F-55FEC6DCE94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27212E08-808B-462E-896F-55FEC6DCE94D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27212E08-808B-462E-896F-55FEC6DCE94D} = {838D01BC-CF42-4A4F-9988-77D5F2713A6A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F15564-F27E-4918-A6A8-F7F18DA3E4F7}
+	EndGlobalSection
+EndGlobal
