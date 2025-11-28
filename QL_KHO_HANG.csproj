@@ -46,10 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TRANGCHU.cs">
+    <Compile Include="data\appdata.cs" />
+    <Compile Include="form\DangKy_dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TRANGCHU.Designer.cs">
+    <Compile Include="form\DangKy_dangnhap.Designer.cs">
+      <DependentUpon>DangKy_dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form\TRANGCHU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form\TRANGCHU.Designer.cs">
       <DependentUpon>TRANGCHU.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -75,6 +82,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="back\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
