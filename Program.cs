@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QL_KHO_HANG.Services;
 
 namespace QL_KHO_HANG
 {
@@ -17,7 +18,7 @@ namespace QL_KHO_HANG
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DangKy_dangnhap());
+            Application.Run(new Qrcode());
         }
     }
 }
