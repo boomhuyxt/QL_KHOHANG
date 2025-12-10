@@ -82,6 +82,9 @@
     <Compile Include="Services\Qrcode.Designer.cs">
       <DependentUpon>Qrcode.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\DangKy_dangnhap.resx">
+      <DependentUpon>DangKy_dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
